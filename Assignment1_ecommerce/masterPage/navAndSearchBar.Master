@@ -4,15 +4,45 @@
 
 <html>
 <head runat="server">
-    <title></title>
+    <title>Assignment 1 e-commerce</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <link href="~/CSS/homeStyleSheet.css" rel="stylesheet" type="text/css" runat="server"/>
+    <link href="~/CSS/ContactsCS.css" rel="stylesheet" type="text/css" runat="server"/>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+        <div id="navDiv">
+            <ul>
+                <li><a href="#home">Home <span class="dropdownArrows"></span></a>
+                    <ul>
+                        <li><a href="#test2">Test2</a></li>
+                        <li><a href="#test3">Test3</a></li>
+                        <li><a href="#Test4aeyeayey">Test4aeyeayey</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#pages">Pages <span class="dropdownArrows"></span></a>
+                    <ul>
+                        <li><a href="#pages2">Pages2</a></li>
+                        <li><a href="#pages3">Pages3</a></li>
+                        <li><a href="#pages4aeaya">Pages4aeaya</a></li>
+                    </ul>
+                </li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div id="logoSearchBar">
+            <asp:Image ID="earthLogo" runat="server" ImageUrl="~/blackAndWhiteEarthLogo.png" Width="30px" />
+            <asp:Label ID="logo" runat="server" Text="Safari Adventure"></asp:Label>
+            <asp:ImageButton ID="searchButton" runat="server" ImageUrl="~/5350529.png" />
+        </div>
+        
+        <div style="margin-left: 100px; margin-right: 100px; width:100%; height: 700px;">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
         </div>
     </form>
 </body>
