@@ -65,6 +65,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="5350529.png" />
+    <Content Include="App_Data\projectDB.mdf" />
+    <Content Include="App_Data\projectDB_log.ldf">
+      <DependentUpon>projectDB.mdf</DependentUpon>
+    </Content>
     <Content Include="blackAndWhiteEarthLogo.png" />
     <Content Include="contact.aspx" />
     <Content Include="CSS\styleSheet.css" />
