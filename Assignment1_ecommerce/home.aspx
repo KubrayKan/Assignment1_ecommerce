@@ -11,30 +11,30 @@
                 <div class="orangeStrip"></div>
                 <asp:Label runat="server" Text="Unusual Holidays" ForeColor="#FF6600" Font-Size="24px"></asp:Label>
                 <asp:Image class="holidaysImage" runat="server" Width="260px" Height="120px"  style="margin-left: -30px; margin-top: 10px; margin-bottom: 20px;" />
-                <asp:Label id="holidaysTextTitle" runat="server" Text="Spend a weekend with us"></asp:Label>
+                <asp:Label id="holidaysTextTitle" runat="server" Text="Spend a weekend with us" Font-Bold="True" Font-Size="14px"></asp:Label>
                 <br />
                 <br />
-                <asp:Label id="holidaysText" runat="server" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis pulvinar est. Donec at dapibus tortor. Maecenas eu rutrum nisi. Ut pharetra, purus a eleifend scelerisque, libero ante feugiat."></asp:Label>
+                <asp:Label id="holidaysText" runat="server" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis pulvinar est. Donec at dapibus tortor. Maecenas eu rutrum nisi. Ut pharetra, purus a eleifend scelerisque, libero ante feugiat." Font-Size="14px"></asp:Label>
                 <asp:Button class="moreButton" runat="server" Text="more" />
             </div>
             <div id="bestTimeCard">
                 <div class="orangeStrip"></div>
                 <asp:Label runat="server" Text="Best Time to Visit" ForeColor="#FF6600" Font-Size="24px"></asp:Label>
                 <asp:Image id="bestTimeImage" runat="server" Width="260px" Height="120px"  style="margin-left: -30px; margin-top: 10px; margin-bottom: 20px;"/>
-                <asp:Label id="bestTimeTextTitle" runat="server" Text="Plan your African Safari with us"></asp:Label>
+                <asp:Label id="bestTimeTextTitle" runat="server" Text="Plan your African Safari with us" Font-Bold="True" Font-Size="14px" Width="220px"></asp:Label>
                 <br />
                 <br />
-                <asp:Label id="bestTimeText" runat="server" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis pulvinar est. Donec at dapibus tortor. Maecenas eu rutrum nisi. Ut pharetra, purus a eleifend scelerisque, libero ante feugiat."></asp:Label>
+                <asp:Label id="bestTimeText" runat="server" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis pulvinar est. Donec at dapibus tortor. Maecenas eu rutrum nisi. Ut pharetra, purus a eleifend scelerisque, libero ante feugiat." Font-Size="14px"></asp:Label>
                 <asp:Button class="moreButton" runat="server" Text="more" />
             </div>
             <div id="safarisCard">
                 <div class="orangeStrip"></div>
                 <asp:Label runat="server" Text="Big Cat Safaris" ForeColor="#FF6600" Font-Size="24px"></asp:Label>
                 <asp:Image id="safarisImage" runat="server" Width="260px" Height="120px"  style="margin-left: -30px; margin-top: 10px; margin-bottom: 20px;"/>
-                <asp:Label id="safarisTextTitle" runat="server" Text="Explore Africa's unique safari"></asp:Label>
+                <asp:Label id="safarisTextTitle" runat="server" Text="Explore Africa's unique safari" Font-Bold="True" Font-Size="14px"></asp:Label>
                 <br />
                 <br />
-                <asp:Label id="safarisText" runat="server" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis pulvinar est. Donec at dapibus tortor. Maecenas eu rutrum nisi. Ut pharetra, purus a eleifend scelerisque, libero ante feugiat."></asp:Label>
+                <asp:Label id="safarisText" runat="server" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis pulvinar est. Donec at dapibus tortor. Maecenas eu rutrum nisi. Ut pharetra, purus a eleifend scelerisque, libero ante feugiat." Font-Size="14px"></asp:Label>
                 <asp:Button class="moreButton" runat="server" Text="more" />
             </div>
         </div>

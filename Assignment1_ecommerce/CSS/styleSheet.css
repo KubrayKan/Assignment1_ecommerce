@@ -9,6 +9,7 @@
     #navDiv ul ul {
         position: absolute;
         left: -99999px;
+        z-index: 100;
     }
 
     #navDiv ul li:hover ul {
@@ -73,6 +74,7 @@
     padding: 20px 30px 30px 30px;
     margin-left: 200px;
     margin-right: -300px;
+    z-index: -1;
 }
 
 #searchButton {
@@ -126,10 +128,6 @@
     margin-bottom: 20px;
 }
 
-#holidaysTextTitle {
-    font-weight: 700;
-}
-
 #holidaysText {
     font-size: 14px;
 }
@@ -140,7 +138,7 @@
     border-style: none;
     height: 35px;
     width: 60px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 170px;
     margin-bottom: -100px;
 }
@@ -163,11 +161,6 @@
     margin-bottom: 20px;
 }
 
-#bestTimeTextTitle {
-    font-weight: 700;
-    font-size: 14px;
-}
-
 #bestTimeText {
     font-size: 14px;
 }
@@ -188,11 +181,6 @@
     margin-left: -30px;
     margin-top: 10px;
     margin-bottom: 20px;
-}
-
-#safarisTextTitle {
-    font-weight: 700;
-    font-size: 14px;
 }
 
 #safarisText {

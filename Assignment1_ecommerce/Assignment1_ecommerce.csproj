@@ -67,8 +67,7 @@
     <Content Include="5350529.png" />
     <Content Include="blackAndWhiteEarthLogo.png" />
     <Content Include="contact.aspx" />
-    <Content Include="CSS\ContactsCS.css" />
-    <Content Include="CSS\homeStyleSheet.css" />
+    <Content Include="CSS\styleSheet.css" />
     <Content Include="galada.jpg" />
     <Content Include="home.aspx" />
     <Content Include="Web.config" />

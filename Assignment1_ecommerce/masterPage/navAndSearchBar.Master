@@ -7,7 +7,7 @@
     <title>Assignment 1 e-commerce</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link href="~/CSS/homeStyleSheet.css" rel="stylesheet" type="text/css" runat="server"/>
+    <link href="~/CSS/styleSheet.css" rel="stylesheet" type="text/css" runat="server"/>
 </head>
 <body>
     <form id="form1" runat="server">
