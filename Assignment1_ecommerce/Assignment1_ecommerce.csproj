@@ -64,16 +64,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="5350529.png" />
+    <Content Include="Images\5350529.png" />
     <Content Include="App_Data\projectDB.mdf" />
     <Content Include="App_Data\projectDB_log.ldf">
       <DependentUpon>projectDB.mdf</DependentUpon>
     </Content>
-    <Content Include="blackAndWhiteEarthLogo.png" />
+    <Content Include="Images\African_White_Rhino_Family.jpg" />
+    <Content Include="Images\blackAndWhiteEarthLogo.png" />
     <Content Include="contact.aspx" />
     <Content Include="CSS\styleSheet.css" />
-    <Content Include="galada.jpg" />
+    <Content Include="Images\cheetah.jpg" />
+    <Content Include="Images\galada.jpg" />
     <Content Include="home.aspx" />
+    <Content Include="Images\giraffe_image.jpg" />
+    <Content Include="Images\Lion_waiting_in_Namibia.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
