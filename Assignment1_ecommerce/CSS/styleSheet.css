@@ -1,4 +1,5 @@
-﻿#navDiv {
+﻿/*Home page*/
+#navDiv {
     height: 70px;
     width: 1160px;
     margin-left: 200px;
@@ -110,11 +111,6 @@
     margin: -20px -30px 10px;
 }
 
-#cardsDiv {
-    margin-top: -413px;
-    margin-left: 330px;
-}
-
 #holidaysCard {
     position: absolute;
     border: 1px solid black;
@@ -124,15 +120,8 @@
     background-color: white;
 }
 
-#holidaysLabel {
-    font-size: 24px;
-    color: rgb(255, 94, 0);
-}
-
-#holidaysImage {
-    width: 260px;
-    height: 120px;
-    margin-left: -30px;
+.holidaysImage {
+    margin-left: -60px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -166,11 +155,6 @@
     background-color: white;
 }
 
-#bestTimeLabel {
-    font-size: 24px;
-    color: rgb(255, 94, 0);
-}
-
 #bestTimeImage {
     width: 260px;
     height: 120px;
@@ -198,11 +182,6 @@
     background-color: white;
 }
 
-#safarisLabel {
-    font-size: 24px;
-    color: rgb(255, 94, 0);
-}
-
 #safarisImage {
     width: 260px;
     height: 120px;
@@ -218,4 +197,51 @@
 
 #safarisText {
     font-size: 14px;
+}
+
+/*Contact page*/
+body {
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+}
+
+#divLeft {
+    float: left;
+    height: 100px;
+    width: 34%;
+}
+
+#divRight {
+    float: right;
+    height: 100px;
+    width: 66%;
+}
+
+#container {
+    padding: 50px 35px 50px 35px;
+}
+
+a {
+    text-decoration: none;
+    color: #FF9933;
+}
+
+i {
+    color: #FF9933;
+}
+
+#vcard {
+    margin-top: 9px;
+}
+
+table {
+    margin-left: -5px;
+}
+
+#controls {
+    width: 100%;
+}
+
+#rightBox {
+    align-content: flex-end;
 }

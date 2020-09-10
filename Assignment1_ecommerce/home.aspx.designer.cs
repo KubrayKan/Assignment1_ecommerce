@@ -22,24 +22,6 @@ namespace Assignment1_ecommerce {
         protected global::System.Web.UI.WebControls.Image imageSlideShow;
         
         /// <summary>
-        /// holidaysLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label holidaysLabel;
-        
-        /// <summary>
-        /// holidaysImage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image holidaysImage;
-        
-        /// <summary>
         /// holidaysTextTitle control.
         /// </summary>
         /// <remarks>
@@ -56,15 +38,6 @@ namespace Assignment1_ecommerce {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label holidaysText;
-        
-        /// <summary>
-        /// bestTimeLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label bestTimeLabel;
         
         /// <summary>
         /// bestTimeImage control.
@@ -92,15 +65,6 @@ namespace Assignment1_ecommerce {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label bestTimeText;
-        
-        /// <summary>
-        /// safarisLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label safarisLabel;
         
         /// <summary>
         /// safarisImage control.
