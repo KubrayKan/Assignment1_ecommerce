@@ -13,7 +13,7 @@
     <form id="form1" runat="server">
         <div id="navDiv">
             <ul>
-                <li><a href="#home">Home <span class="dropdownArrows"></span></a>
+                <li><asp:HyperLink id="HyperLink2" runat="server" NavigateUrl="~/home.aspx">Home <span class="dropdownArrows"></span></asp:HyperLink>
                     <ul>
                         <li><a href="#test2">Test2</a></li>
                         <li><a href="#test3">Test3</a></li>
@@ -30,7 +30,8 @@
                 </li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><asp:HyperLink id="HyperLink1" runat="server" NavigateUrl="~/contact.aspx">Contact</asp:HyperLink></li>
+                
             </ul>
         </div>
         <div id="logoSearchBar">
