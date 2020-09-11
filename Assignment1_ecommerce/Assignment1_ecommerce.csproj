@@ -64,7 +64,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\5350529.png" />
+    <Content Include="Images\search_icon.png" />
     <Content Include="App_Data\projectDB.mdf" />
     <Content Include="App_Data\projectDB_log.ldf">
       <DependentUpon>projectDB.mdf</DependentUpon>
@@ -78,6 +78,8 @@
     <Content Include="home.aspx" />
     <Content Include="Images\giraffe_image.jpg" />
     <Content Include="Images\Lion_waiting_in_Namibia.jpg" />
+    <Content Include="Images\male_lion_and_cub.jpg" />
+    <Content Include="Images\sunset-sky-74.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
