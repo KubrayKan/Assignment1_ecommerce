@@ -34,7 +34,7 @@ namespace Assignment1_ecommerce
             }
             catch(Exception ex)
             {
-                messageTextBox.Text = ex;
+                messageTextBox.Text = ex.Message;
             }
         }
 
