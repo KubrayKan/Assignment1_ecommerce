@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div id="bodyContact">
     <div id="container">
             <div id="divLeft">
                 
@@ -53,7 +54,7 @@
                 <asp:TextBox ID="PhoneTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">    Phone</asp:TextBox>
                 <br />
                 <br />
-                <asp:TextBox ID="messageTextBox" runat="server" Height="127px" Width="630px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">    Message</asp:TextBox>
+                <asp:TextBox ID="messageTextBox" runat="server" Height="127px" Width="619px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">    Message</asp:TextBox>
 
                 <br />
                 <br />
@@ -63,5 +64,6 @@
                 &nbsp;&nbsp;
                 <asp:Button ID="btnClear" runat="server" Text="Clear" BackColor="#FF9933" ForeColor="White" Height="39px" Width="67px" OnClick="btnClear_Click"/>
             </div>
+        </div>
         </div>
 </asp:Content>
