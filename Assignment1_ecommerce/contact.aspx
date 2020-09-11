@@ -59,9 +59,9 @@
                 <br />
                 <br />
 
-                <asp:Button ID="btnSend" runat="server" Text="Send" BackColor="#FF9933" ForeColor="White" Height="39px" Width="67px" />
+                <asp:Button ID="btnSend" runat="server" Text="Send" BackColor="#FF9933" ForeColor="White" Height="39px" Width="67px" OnClick="btnSend_Click" />
                 &nbsp;&nbsp;
-                <asp:Button ID="btnClear" runat="server" Text="Clear" BackColor="#FF9933" ForeColor="White" Height="39px" Width="67px"/>
+                <asp:Button ID="btnClear" runat="server" Text="Clear" BackColor="#FF9933" ForeColor="White" Height="39px" Width="67px" OnClick="btnClear_Click"/>
             </div>
         </div>
 </asp:Content>
