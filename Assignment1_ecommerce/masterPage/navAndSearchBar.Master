@@ -8,6 +8,7 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <link href="~/CSS/styleSheet.css" rel="stylesheet" type="text/css" runat="server" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     <form id="form1" runat="server">
@@ -15,21 +16,21 @@
             <ul>
                 <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/home.aspx">Home <span class="dropdownArrows"></span></asp:HyperLink>
                     <ul>
-                        <li><a href="#test2">Test2</a></li>
-                        <li><a href="#test3">Test3</a></li>
-                        <li><a href="#Test4aeyeayey">Test4aeyeayey</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=gsn9xxHBDG8">Nothing</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=YKB3vbjI0IY">Also nothing</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=mKue4WuagL8">Funny</a></li>
                     </ul>
                 </li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#pages">Pages <span class="dropdownArrows"></span></a>
                     <ul>
-                        <li><a href="#pages2">Pages2</a></li>
-                        <li><a href="#pages3">Pages3</a></li>
-                        <li><a href="#pages4aeaya">Pages4aeaya</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=7HrnWC8zBcE">Me Irl</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=dNiBF948chk">Sad</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=8nv6vchiwG8">Watch</a></li>
                     </ul>
                 </li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#blog">Blog</a></li>
+                <li><a href="https://www.youtube.com/watch?v=IdyXKJ8NcNI">Gallery</a></li>
+                <li><a href="https://www.youtube.com/watch?v=7zpxgyG7eGk">Blog</a></li>
                 <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/contact.aspx">Contact</asp:HyperLink></li>
             </ul>
         </div>
@@ -40,7 +41,7 @@
             <asp:ImageButton ID="searchButton" runat="server" ImageUrl="~/Images/search_icon.png" />
         </div>
 
-        <div style="position: absolute; margin-left: 100px; margin-right: -300px; height: 700px;">
+        <div style="position: center; margin-left: 100px; margin-right: 100px; height: 700px;">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>

@@ -20,7 +20,7 @@ namespace Assignment1_ecommerce
         {
             try
             {
-                SqlConnection myConnection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\odysseas\Desktop\Assignment1_ecommerce\Assignment1_ecommerce\App_Data\projectDB.mdf;Integrated Security=True");
+                SqlConnection myConnection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Guille\source\repos\Assignment1_ecommerce\Assignment1_ecommerce\App_Data\projectDB.mdf;Integrated Security=True");
                 myConnection.Open();
                 SqlCommand cmd = myConnection.CreateCommand();
                 cmd.CommandType = CommandType.Text;

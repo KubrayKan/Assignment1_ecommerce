@@ -208,6 +208,8 @@ body {
 
 #container {
     padding: 50px 35px 50px 35px;
+    margin-left: 100px;
+    margin-right:100px;
 }
 
 a {

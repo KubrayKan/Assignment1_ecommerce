@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Assignment1_ecommerce {
-    
-    
-    public partial class contact {
-        
+namespace Assignment1_ecommerce
+{
+
+
+    public partial class contact
+    {
+
         /// <summary>
         /// nameTextBox control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace Assignment1_ecommerce {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox nameTextBox;
-        
+
         /// <summary>
         /// emailTextBox control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace Assignment1_ecommerce {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox emailTextBox;
-        
+
         /// <summary>
         /// PhoneTextBox control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace Assignment1_ecommerce {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox PhoneTextBox;
-        
+
         /// <summary>
         /// messageTextBox control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace Assignment1_ecommerce {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox messageTextBox;
-        
+
         /// <summary>
         /// btnSend control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace Assignment1_ecommerce {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSend;
-        
+
         /// <summary>
         /// btnClear control.
         /// </summary>

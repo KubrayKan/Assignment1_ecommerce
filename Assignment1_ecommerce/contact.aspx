@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<div id="container">
+    <div id="container">
             <div id="divLeft">
                 
                 <h4>ADDRESS:</h4>
@@ -46,14 +46,14 @@
                 <br />
                 <br />
 
-                <asp:TextBox ID="nameTextBox" runat="server" Width="200px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">    Name</asp:TextBox>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="emailTextBox" runat="server" Width="200px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">    Email</asp:TextBox>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="PhoneTextBox" runat="server" Width="200px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">    Phone</asp:TextBox>
+                <asp:TextBox ID="nameTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">    Name</asp:TextBox>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="emailTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">    Email</asp:TextBox>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="PhoneTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">    Phone</asp:TextBox>
                 <br />
                 <br />
-                <asp:TextBox ID="messageTextBox" runat="server" Height="127px" Width="765px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">    Message</asp:TextBox>
+                <asp:TextBox ID="messageTextBox" runat="server" Height="127px" Width="630px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">    Message</asp:TextBox>
 
                 <br />
                 <br />
