@@ -17,7 +17,7 @@ namespace Assignment1_ecommerce
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            try
+            /**try
             {
                 SqlConnection myConnection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\odysseas\Desktop\Assignment1_ecommerce\Assignment1_ecommerce\App_Data\projectDB.mdf;Integrated Security=True");
                 SqlCommand cmd = new SqlCommand("select * from <table>", myConnection);
@@ -32,7 +32,7 @@ namespace Assignment1_ecommerce
             catch (Exception exception)
             {
                 throw new Exception(exception.ToString());
-            }
+            }**/
         }
     }
 }

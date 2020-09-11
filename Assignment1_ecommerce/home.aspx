@@ -4,7 +4,7 @@
 </asp:Content>
 
 <asp:Content id="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:Image id="imageSlideShow" style="width: 1160px; height: 620px; margin-left: 100px; margin-right: 100px;" runat="server" ImageUrl="~/galada.jpg" />
+    <asp:Image id="imageSlideShow" style="width: 1160px; height: 620px; margin-left: 100px; margin-right: 100px;" runat="server" ImageUrl="~/Images/galada.jpg" />
         <div id="yellowBackground"></div>
         <div style=" margin-top: -413px; margin-left: 230px;">
             <div id="holidaysCard">

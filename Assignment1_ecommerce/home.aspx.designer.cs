@@ -40,15 +40,6 @@ namespace Assignment1_ecommerce {
         protected global::System.Web.UI.WebControls.Label holidaysText;
         
         /// <summary>
-        /// bestTimeImage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image bestTimeImage;
-        
-        /// <summary>
         /// bestTimeTextTitle control.
         /// </summary>
         /// <remarks>
@@ -65,15 +56,6 @@ namespace Assignment1_ecommerce {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label bestTimeText;
-        
-        /// <summary>
-        /// safarisImage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image safarisImage;
         
         /// <summary>
         /// safarisTextTitle control.
