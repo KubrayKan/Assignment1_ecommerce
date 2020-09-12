@@ -207,6 +207,18 @@ body {
     background-color:#f5f5f5;
 }
 
+#nameTextBox {
+    margin-right: 30px;
+}
+
+#emailTextBox {
+    margin-right:30px;
+}
+
+#PhoneTextBox {
+    margin-left: 20px;
+}
+
 #divLeft {
     float: left;
     height: 100px;
