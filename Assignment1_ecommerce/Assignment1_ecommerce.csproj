@@ -64,6 +64,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\elMono.png" />
+    <Content Include="Images\monkeyPog.jpg" />
     <Content Include="Images\search_icon.png" />
     <Content Include="App_Data\projectDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

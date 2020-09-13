@@ -4,7 +4,24 @@
 </asp:Content>
 
 <asp:Content id="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:Image id="imageSlideShow" style="width: 1160px; height: 620px; margin-left: 100px; margin-right: 100px;" runat="server" ImageUrl="~/Images/galada.jpg" />
+    <div id="imageSlideShow">
+        <div class="mySlides fade">
+            <img class="slideImage" src="Images/galada.jpg">
+        </div>
+
+        <div class="mySlides fade">
+            <img class="slideImage" src="Images/monkeyPog.jpg">
+        </div>
+
+        <div class="mySlides fade">
+            <img class="slideImage" src="Images/elMono.png">
+        </div>
+        <div id="lineContainer">
+                <span class="lines"></span>
+                <span class="lines"></span>
+                <span class="lines"></span>
+         </div>
+    </div>
         <div id="yellowBackground"></div>
         <div style=" margin-top: -413px; margin-left: 230px;">
             <div id="holidaysCard">
@@ -38,4 +55,30 @@
                 <asp:Button class="moreButton" runat="server" Text="more" />
             </div>
         </div>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var lines = document.getElementsByClassName("lines");
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+
+            for (i = 0; i < lines.length; i++) {
+                lines[i].className = lines[i].className.replace(" current", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            lines[slideIndex - 1].className += " current";
+            setTimeout(showSlides, 5000);
+        }
+    </script>
 </asp:Content>

@@ -47,7 +47,7 @@
                 <br />
                 <br />
 
-                <asp:TextBox ID="nameTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">    Name</asp:TextBox>
+                <asp:TextBox ID="nameTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">Name</asp:TextBox>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:TextBox ID="emailTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">    Email</asp:TextBox>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
