@@ -66,6 +66,8 @@
   <ItemGroup>
     <Content Include="Images\african_rhino.jpg" />
     <Content Include="Images\male_and_female_lion.jpg" />
+    <Content Include="Images\elMono.png" />
+    <Content Include="Images\monkeyPog.jpg" />
     <Content Include="Images\search_icon.png" />
     <Content Include="App_Data\projectDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
