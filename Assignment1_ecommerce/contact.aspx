@@ -46,22 +46,19 @@
 
                 <br />
                 <br />
-
-                <asp:TextBox ID="nameTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">Name</asp:TextBox>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="emailTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">    Email</asp:TextBox>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="PhoneTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">    Phone</asp:TextBox>
+                <asp:TextBox id="nameTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999" placeholder="Name" style="margin-right: 45px;"></asp:TextBox>
+                <asp:TextBox id="emailTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999" placeholder="Email" style="margin-right: 45px;"></asp:TextBox>
+                <asp:TextBox id="PhoneTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999" placeholder="Phone" style="margin-right: 45px;"></asp:TextBox>
                 <br />
                 <br />
-                <asp:TextBox ID="messageTextBox" runat="server" Height="127px" Width="619px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999">    Message</asp:TextBox>
+                <asp:TextBox id="messageTextBox" runat="server" Height="127px" Width="619px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999" placeholder="Message"></asp:TextBox>
 
                 <br />
                 <br />
                 <br />
 
-                <asp:Button ID="btnSend" runat="server" Text="Send" BackColor="#FF9933" ForeColor="White" Height="39px" Width="67px" OnClick="btnSend_Click" />
-                &nbsp;&nbsp;
+                <asp:Button ID="btnSend" runat="server" Text="Send" BackColor="#FF9933" ForeColor="White" Height="39px" Width="67px" style="margin-right: 15px;" OnClick="btnSend_Click" />
+                
                 <asp:Button ID="btnClear" runat="server" Text="Clear" BackColor="#FF9933" ForeColor="White" Height="39px" Width="67px" OnClick="btnClear_Click"/>
             </div>
         </div>
