@@ -46,12 +46,12 @@
 
                 <br />
                 <br />
-                <asp:TextBox id="nameTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999" placeholder="Name" style="margin-right: 45px;"></asp:TextBox>
-                <asp:TextBox id="emailTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999" placeholder="Email" style="margin-right: 45px;"></asp:TextBox>
-                <asp:TextBox id="PhoneTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999" placeholder="Phone" style="margin-right: 45px;"></asp:TextBox>
+                <asp:TextBox id="nameTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999" placeholder="   Name" style="margin-right: 45px;"></asp:TextBox>
+                <asp:TextBox id="emailTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999" placeholder="   Email" style="margin-right: 45px;"></asp:TextBox>
+                <asp:TextBox id="PhoneTextBox" runat="server" Width="165px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999" placeholder="   Phone" style="margin-right: 45px;"></asp:TextBox>
                 <br />
                 <br />
-                <asp:TextBox id="messageTextBox" runat="server" Height="127px" Width="619px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999" placeholder="Message"></asp:TextBox>
+                <asp:TextBox id="messageTextBox" runat="server" Height="127px" Width="619px" BorderColor="#999999" BorderStyle="Solid" ForeColor="#999999" placeholder="   Message"></asp:TextBox>
 
                 <br />
                 <br />
