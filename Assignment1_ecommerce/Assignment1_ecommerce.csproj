@@ -64,6 +64,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\african_rhino.jpg" />
+    <Content Include="Images\male_and_female_lion.jpg" />
     <Content Include="Images\search_icon.png" />
     <Content Include="App_Data\projectDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -72,15 +74,15 @@
       <DependentUpon>projectDB.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\African_White_Rhino_Family.jpg" />
     <Content Include="Images\blackAndWhiteEarthLogo.png" />
     <Content Include="contact.aspx" />
     <Content Include="CSS\styleSheet.css" />
     <Content Include="Images\cheetah.jpg" />
     <Content Include="Images\galada.jpg" />
     <Content Include="home.aspx" />
-    <Content Include="Images\giraffe_image.jpg" />
-    <Content Include="Images\Lion_waiting_in_Namibia.jpg" />
+    <Content Include="Images\giraffe_image.jpg">
+      <BrowseToURL>~/Images/giraffe_image.jpg</BrowseToURL>
+    </Content>
     <Content Include="Images\male_lion_and_cub.jpg" />
     <Content Include="Images\sunset-sky-74.png" />
     <Content Include="Web.config" />
