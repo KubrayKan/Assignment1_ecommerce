@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -11,10 +6,6 @@ namespace Assignment1_ecommerce
 {
     public partial class home : System.Web.UI.Page
     {
-       //private string holidaysTitle, bestTimeTitle, safarisTitle;
-       //private string holidaysImage, bestTimeImage, safarisImage;
-        //private string holidaysTextTitle, bestTimeTextTitle, safarisTextTitle;
-        //private string holidaysText, bestTimeText, safarisText;
 
         protected void Page_Load(object sender, EventArgs e)
         {
